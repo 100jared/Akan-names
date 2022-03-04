@@ -9,7 +9,8 @@
   <summary> Click here to see the table of contents</summary>
 
 + [Description](#description)
-+ [Preview Device](#Preview Device)
++ [Preview Device](#Preview-Device)
++ [set up instructions](#Set-up)
 + [Technology Used](#technology-used)
 + [Reference](#reference)
 + [Licence](#licence)
@@ -32,6 +33,15 @@
 * Get connected to an internet.
   
 * Here is the live link: https://100jared.github.io/my-portfolio/
+
+## Set-up-instructions
+
+* Clone this repository to a location in your file system. 
+git clone https://github.com/100jared/Akan-names.git
+
+* Open terminal command line then navigate to the root folder using: cd Akan-names
+
+* Load the index.html on your Browser
 
 [Back to the top](#my-portfolio)
 
