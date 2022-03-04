@@ -44,7 +44,7 @@
 
 * Load the `index.html` on your Browser
 
-[Back to the top](#my-portfolio)
+[Back to the top](#akan-names)
 
 ## Technology Used
 
@@ -58,7 +58,7 @@
 
 * HTML and Vanilla CSS, Bootstrap and JavaScript.
 
-[Back to the top](#my-portfolio)
+[Back to the top](#akan-names)
 
 ## Features
 
@@ -68,7 +68,7 @@
 ## Licence
 
 
-[Go Back to the top](#my-portfolio)
+[Go Back to the top](#akan-names)
 
 ## Author's Info
 Name : Gilbert Korir.
