@@ -33,7 +33,7 @@
 
 * Get connected to an internet.
   
-* Here is the live link: https://100jared.github.io/my-portfolio/
+* Here is the live link: `https://100jared.github.io/Akan-names/`
 
 ## Set-up-instructions
 
@@ -66,7 +66,7 @@
 * web page containing a form for calculation.
 
 ## Licence
-
+[MIT LICENSE](https://github.com/100jared/Akan-names/blob/master/LICENSE)
 
 [Go Back to the top](#akan-names)
 
