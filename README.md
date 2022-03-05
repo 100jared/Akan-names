@@ -66,7 +66,9 @@
 * web page containing a form for calculation.
 
 ## Licence
-[MIT LICENSE](https://github.com/100jared/Akan-names/blob/master/LICENSE)
+[MIT LICENSE](https://github.com/100jared/Akan-names/blob/master/LICENSE) <p>Gilbert korir &copy; 2022</p>
+
+
 
 [Go Back to the top](#akan-names)
 
