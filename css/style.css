@@ -118,10 +118,7 @@ form{
     border-radius: 5px;
     margin-right: -120px;
 }
-form p{
-    /* float: right;
-    margin-left: -90px; */
-}
+
 footer{
     height: 10vh;
     opacity: 0.8;
@@ -137,7 +134,10 @@ footer p{
 .h-btn{
     margin-left: 0px;
 }
-
+form{
+    margin-left: 0px;
+    text-align: center;
+}
 form p{
     display: none;
 }
