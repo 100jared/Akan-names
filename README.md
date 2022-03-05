@@ -33,7 +33,7 @@
 
 * Get connected to an internet.
   
-* Here is the live link: `https://100jared.github.io/Akan-names/`
+* Here is the live link: https://100jared.github.io/Akan-names/
 
 ## Set-up-instructions
 
