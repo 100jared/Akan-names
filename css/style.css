@@ -98,6 +98,7 @@ form{
     margin-top: 50px;
 }
 .form-display{
+    margin: 50px 0px 0px 50px;
     height: 20vh;
     background-color: white;
     width: 40vw;
