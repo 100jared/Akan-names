@@ -138,12 +138,13 @@ form{
     margin-left: 0px;
     text-align: center;
 }
-form p{
-    display: none;
-}
 form .btn1{
     margin: 3px 0px 0px 0px;
     justify-items: center;
+}
+.form-display{
+    width: 70%;
+    margin-bottom: 10px;
 }
 .landing{
     height: auto !important;
