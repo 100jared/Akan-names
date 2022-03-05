@@ -39,46 +39,60 @@ function findDate(){
     }
     
      else if (Math.abs(bornDay) == 1 && gender === "male"){
-        alert("Your Name is " + maleName[1]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan male name is: " + maleName[1];
     }
     else if (Math.abs(bornDay) == 2 && gender === "male"){
-        alert("Your Name is " + maleName[2]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan male name is: " + maleName[2];
     }
     else if (Math.abs(bornDay) == 3 && gender === "male"){
-        alert("Your Name is " + maleName[3]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan male name is: " + maleName[3];
     }
     else if (Math.abs(bornDay) == 4 && gender === "male"){
-        alert("Your Name is " + maleName[4]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan male name is: " + maleName[4];
     }
     else if (Math.abs(bornDay) == 5 && gender === "male"){
-        alert("Your Name is " + maleName[5]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan male name is: " + maleName[5];
     }
     else if (Math.abs(bornDay) == 6 && gender === "male"){
-        alert("Your Name is " + maleName[6]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan male name is: " + maleName[6];
     }
     else if (Math.abs(bornDay) == 0 && gender === "male"){
-        alert("Your Name is " + maleName[0]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan male name is: " + maleName[0];
     }
     else if (Math.abs(bornDay) == 1 && gender === "female"){
-        alert("Your Name is " + femaleName[1]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan female name is: " + maleName[1];
     }
     else if (Math.abs(bornDay) == 2 && gender === "female"){
-        alert("Your Name is " + femaleName[2]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan female name is: " + femaleName[2];
     }
     else if (Math.abs(bornDay) == 3&& gender === "female"){
-        alert("Your Name is " + femaleName[3]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan female name is: " + femaleName[3];
     }
     else if (Math.abs(bornDay) == 4 && gender === "female"){
-        alert("Your Name is " + femaleName[4]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan female name is: " + femaleName[4];
     }
     else if (Math.abs(bornDay) == 5 && gender === "female"){
-        alert("Your Name is " + femaleName[5]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan female name is: " + femaleName[5];
     }
     else if (Math.abs(bornDay) == 6 && gender === "female"){
-        alert("Your Name is " + femaleName[6]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan female name is: " + femaleName[6];
     }
     else if (Math.abs(bornDay) == 0 && gender === "female"){
-        alert("Your Name is " + femaleName[0]);
+        document.getElementById("demo").innerHTML = 
+        "Your akan female name is: " + femaleName[0];
     }
     else{
         alert("inputs required")

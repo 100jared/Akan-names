@@ -85,11 +85,22 @@ hr{
     text-align: center;
     font-size: 15px;
 }
-form{
-    height: 74vh;
+.form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: yellow;
-    opacity: 0.8;
-    text-align: center;
+}
+form{
+    height: 67vh;
+    margin-left: 150px;
+    /* text-align: center; */
+    margin-top: 50px;
+}
+.form-display{
+    height: 20vh;
+    background-color: white;
+    width: 40vw;
 }
 #day, #month, #year{
     width: 150px;
@@ -107,8 +118,8 @@ form{
     margin-right: -120px;
 }
 form p{
-    float: right;
-    margin-left: -90px;
+    /* float: right;
+    margin-left: -90px; */
 }
 footer{
     height: 10vh;
