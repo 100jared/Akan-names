@@ -1,9 +1,3 @@
-//Locate to home button 
-function send(){
-   document.getElementById("btn");
-   window.open("index.html");
-}
-
 //  Declare male and female names
 
 var maleName = ["Kwasi","Kwa","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
