@@ -99,12 +99,15 @@ form{
 }
 .form-display{
     margin: 50px 0px 0px 50px;
-    height: 20vh;
+    height: 50vh;
     background-color: white;
     width: 40vw;
     border-radius: 20px;
     text-align: center;
     overflow: auto;
+}
+.form-display img{
+    margin-top: 50px;
 }
 
 #day, #month, #year{
@@ -184,7 +187,11 @@ video{
      margin-left: 0px;
      width: 100%;
  }
-
+.form-display{
+    width: 95%;
+    margin-left: 10px;
+    text-align: center;
+}
 }
 
 

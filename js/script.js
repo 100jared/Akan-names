@@ -4,6 +4,7 @@ var maleName = ["Kwasi","Kwa","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleName = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
 function findDate(){
+    document.getElementById("demo").style.color = "blue";
     var day = document.getElementById("day").value;
     var dd = parseInt(day);
     var month = document.getElementById("month").value;
