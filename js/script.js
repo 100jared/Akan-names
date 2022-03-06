@@ -1,9 +1,9 @@
 //  Declare male and female names
 
-var maleName = ["Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame","Kwasi"];
-var femaleName = ["Adwoa","Abenaa","Akua","Yaa","Afua","Ama","Akosua"];
 
-function findDate(){
+function findDay(){
+    var maleName = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+    var femaleName = ["Akosua", "Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     document.getElementById("demo").style.color = "blue";
     var day = document.getElementById("day").value;
@@ -27,18 +27,19 @@ function findDate(){
     }
 
     // form validation
-     if (dd <=0 || dd > 31){
+     if (dd < 1 || dd > 31){
         alert("invalid Date");
     }
-     else if (mm <= 0 || mm > 12|| mm == 2 && dd>29){
+     else if (mm < 1 || mm > 12|| mm == 2 && dd>29){
         alert("invalid Month");
-     
-    }
-    // else if (year <= 0 ){
-    //     alert("invalid year");
-    // }
 
-     if (Math.abs(bornDay) == 1 && gender === "male"){
+    }
+    else if (yy<=0||yy>2019){
+        alert("The year should be 2019 or less!")
+    }
+    // else{alert("inputs required")}
+    
+    else if (Math.round(bornDay) == 1 && gender === "male"){
         document.getElementById("demo").innerHTML = 
         "Born on "+ days[wDay] + " Your akan male name is: " + maleName[1];
     }
@@ -46,7 +47,7 @@ function findDate(){
         document.getElementById("demo").innerHTML = 
         "Born on "  + days[wDay] + " Your akan male name is: " + maleName[2];
     }
-    else if (Math.abs(bornDay) == 3 && gender === "male"){
+    else if ((bornDay) == 3 && gender === "male"){
         document.getElementById("demo").innerHTML = 
         "Born on " + days[wDay] + " Your akan male name is: " + maleName[3];
     }
@@ -70,7 +71,7 @@ function findDate(){
         document.getElementById("demo").innerHTML = 
         "Born on " + days[wDay] +  " Your akan female name is: " + maleName[1];
     }
-    else if (Math.round(bornDay) == 2 && gender === "female"){
+     else if (Math.round(bornDay) == 2 && gender === "female"){
         document.getElementById("demo").innerHTML = 
         "Born on " + days[wDay] + " Your akan female name is: " + femaleName[2];
     }
@@ -94,9 +95,9 @@ function findDate(){
         document.getElementById("demo").innerHTML = 
         "Born on "  + days[wDay] + " Your akan female name is: " + femaleName[0];
     }
-    else{
-        alert("inputs required")
-    }
+    // else{
+    //     alert("inputs required")
+    // }
 
 }
 
