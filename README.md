@@ -23,7 +23,7 @@
 <p>Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and Ghana. A child's name is determined by factors surrounding his or her birth. <br> For example, the day of their birth or the manner in which they were born may determine which name they get irrespective of their gender.</p>
 
 <p align="center"><img src="https://github.com/100jared/Akan-names/blob/master/img/landing.jpg" height="300px" width = "70%"> </p>
-<p align="center"><img src="https://github.com/100jared/Akan-names/blob/master/img/naming.jpg" height="300px" width = "70%"> </p>
+<p align="center"><img src="https://github.com/100jared/Akan-names/blob/master/img/nm.jpg" height="300px" width = "70%"> </p>
   
  ---
 
