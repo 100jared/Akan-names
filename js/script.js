@@ -95,9 +95,9 @@ function findDay(){
         document.getElementById("demo").innerHTML = 
         "Born on "  + days[wDay] + " Your akan female name is: " + femaleName[0];
     }
-    // else{
-    //     alert("inputs required")
-    // }
+    else{
+        alert("inputs required")
+    }
 
 }
 
