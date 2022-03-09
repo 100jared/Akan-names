@@ -41,13 +41,13 @@ function findDay(){
         alert("inputs required")
     }
 
-   if(gender === 'male'){
+  else if(gender === 'male'){
         document.getElementById("demo").innerHTML = 
         "Born on "+ days[wDay] + " Your akan male name is: " + maleName[wDay];
     }
     else if (gender === 'female'){
         document.getElementById("demo").innerHTML = 
-     "Born on "+ days[wDay] + " Your akan male name is: " + femaleName[wDay];
+     "Born on "+ days[wDay] + " Your akan female name is: " + femaleName[wDay];
     }
     // else{alert("inputs required")}
     
