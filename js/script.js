@@ -34,7 +34,7 @@ function findDay(){
         alert("invalid Month");
 
     }
-    else if (yy<=0||yy>2019){
+    else if (yy<=0||yy==""){
         alert("The year should be 2019 or less!")
     }
     else if(mm == "" && dd == "" && yy=="" ) {
