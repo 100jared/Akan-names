@@ -37,68 +37,77 @@ function findDay(){
     else if (yy<=0||yy>2019){
         alert("The year should be 2019 or less!")
     }
-    // else{alert("inputs required")}
-    
-    else if (Math.round(bornDay) == 1 && gender === "male"){
-        document.getElementById("demo").innerHTML = 
-        "Born on "+ days[wDay] + " Your akan male name is: " + maleName[1];
-    }
-    else if (Math.round(bornDay) == 2 && gender === "male"){
-        document.getElementById("demo").innerHTML = 
-        "Born on "  + days[wDay] + " Your akan male name is: " + maleName[2];
-    }
-    else if ((bornDay) == 3 && gender === "male"){
-        document.getElementById("demo").innerHTML = 
-        "Born on " + days[wDay] + " Your akan male name is: " + maleName[3];
-    }
-    else if (Math.round(bornDay) == 4 && gender === "male"){
-        document.getElementById("demo").innerHTML = 
-        "Born on " + days[wDay] + " Your akan male name is: " + maleName[4];
-    }
-    else if (Math.round(bornDay) == 5 && gender === "male"){
-        document.getElementById("demo").innerHTML = 
-        "Born on " + days[wDay] + " Your akan male name is: " + maleName[5];
-    }
-    else if (Math.round(bornDay) == 6 && gender === "male"){
-        document.getElementById("demo").innerHTML = 
-        "Born on " + days[wDay] +  " Your akan male name is: " + maleName[6];
-    }
-    else if (Math.round(bornDay) == 0 && gender === "male"){
-        document.getElementById("demo").innerHTML = 
-        "Born on "  + days[wDay] +  " Your akan male name is: " + maleName[0];
-    }
-    else if (Math.round(bornDay) == 1 && gender === "female"){
-        document.getElementById("demo").innerHTML = 
-        "Born on " + days[wDay] +  " Your akan female name is: " + maleName[1];
-    }
-     else if (Math.round(bornDay) == 2 && gender === "female"){
-        document.getElementById("demo").innerHTML = 
-        "Born on " + days[wDay] + " Your akan female name is: " + femaleName[2];
-    }
-    else if (Math.round(bornDay) == 3&& gender === "female"){
-        document.getElementById("demo").innerHTML = 
-        "Born on " + days[wDay] +  " Your akan female name is: " + femaleName[3];
-    }
-    else if (Math.round(bornDay) == 4 && gender === "female"){
-        document.getElementById("demo").innerHTML = 
-        "Born on "  + days[wDay] +  " Your akan female name is: " + femaleName[4];
-    }
-    else if (Math.round(bornDay) == 5 && gender === "female"){
-        document.getElementById("demo").innerHTML = 
-        "Born on " + days[wDay] + " Your akan female name is: " + femaleName[5];
-    }
-    else if (Math.round(bornDay) == 6 && gender === "female"){
-        document.getElementById("demo").innerHTML = 
-        "Born on "  + days[wDay] +  " Your akan female name is: " + femaleName[6];
-    }
-    else if (Math.round(bornDay) == 0 && gender === "female"){
-        document.getElementById("demo").innerHTML = 
-        "Born on "  + days[wDay] + " Your akan female name is: " + femaleName[0];
-    }
-    else{
+    else if(mm == "" && dd == "" && yy=="" ) {
         alert("inputs required")
     }
 
+   if(gender === 'male'){
+        document.getElementById("demo").innerHTML = 
+        "Born on "+ days[wDay] + " Your akan male name is: " + maleName[wDay];
+    }
+    else if (gender === 'female'){
+        document.getElementById("demo").innerHTML = 
+     "Born on "+ days[wDay] + " Your akan male name is: " + femaleName[wDay];
+    }
+    // else{alert("inputs required")}
+    
+    // else if (Math.round(bornDay) == 1 && gender === "male"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on "+ days[wDay] + " Your akan male name is: " + maleName[1];
+    // }
+    // else if (Math.round(bornDay) == 2 && gender === "male"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on "  + days[wDay] + " Your akan male name is: " + maleName[2];
+    // }
+    // else if ((bornDay) == 3 && gender === "male"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on " + days[wDay] + " Your akan male name is: " + maleName[3];
+    // }
+    // else if (Math.round(bornDay) == 4 && gender === "male"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on " + days[wDay] + " Your akan male name is: " + maleName[4];
+    // }
+    // else if (Math.round(bornDay) == 5 && gender === "male"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on " + days[wDay] + " Your akan male name is: " + maleName[5];
+    // }
+    // else if (Math.round(bornDay) == 6 && gender === "male"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on " + days[wDay] +  " Your akan male name is: " + maleName[6];
+    // }
+    // else if (Math.round(bornDay) == 0 && gender === "male"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on "  + days[wDay] +  " Your akan male name is: " + maleName[0];
+    // }
+    // else if (Math.round(bornDay) == 1 && gender === "female"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on " + days[wDay] +  " Your akan female name is: " + maleName[1];
+    // }
+    //  else if (Math.round(bornDay) == 2 && gender === "female"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on " + days[wDay] + " Your akan female name is: " + femaleName[2];
+    // }
+    // else if (Math.round(bornDay) == 3&& gender === "female"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on " + days[wDay] +  " Your akan female name is: " + femaleName[3];
+    // }
+    // else if (Math.round(bornDay) == 4 && gender === "female"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on "  + days[wDay] +  " Your akan female name is: " + femaleName[4];
+    // }
+    // else if (Math.round(bornDay) == 5 && gender === "female"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on " + days[wDay] + " Your akan female name is: " + femaleName[5];
+    // }
+    // else if (Math.round(bornDay) == 6 && gender === "female"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on "  + days[wDay] +  " Your akan female name is: " + femaleName[6];
+    // }
+    // else if (Math.round(bornDay) == 0 && gender === "female"){
+    //     document.getElementById("demo").innerHTML = 
+    //     "Born on "  + days[wDay] + " Your akan female name is: " + femaleName[0];
+    // }
+ 
 }
 
 
